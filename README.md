@@ -317,5 +317,5 @@ Les contributions, suggestions et signalements de bugs sont les bienvenus !
 
 ## 👤 Auteur
 
-- Projet conçu et développé par **alaej**
-- Dépôt officiel : [Tradetackz](https://github.com/)
+- Projet conçu et développé par **aljnt**
+- Dépôt officiel : [Tradetrackz](https://github.com/aljnt/Tradetrackz)
