@@ -1,0 +1,84 @@
+# ==============================================================================
+# Tradetackz - Global .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# Operating System & General
+# ------------------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+*.tmp
+*.swp
+*.bak
+
+# ------------------------------------------------------------------------------
+# IDEs & Editors
+# ------------------------------------------------------------------------------
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+
+# ------------------------------------------------------------------------------
+# Secrets & Environment variables
+# ------------------------------------------------------------------------------
+.env
+*.env
+!.env.example
+
+# ------------------------------------------------------------------------------
+# Backend (Java / Maven / Spring Boot)
+# ------------------------------------------------------------------------------
+**/target/
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+.mvn/wrapper/maven-wrapper.jar
+
+# ------------------------------------------------------------------------------
+# Frontend (Flutter / Dart)
+# ------------------------------------------------------------------------------
+**/.dart_tool/
+**/build/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/coverage/
+**/.metadata
+
+# iOS build artifacts
+**/ios/Flutter/.last_build_id
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+**/ios/ServiceDefinitions.json
+
+# Android build artifacts
+**/android/.gradle/
+**/android/local.properties
+**/android/app/debug/
+**/android/app/profile/
+**/android/app/release/
+**/android/**/GeneratedPluginRegistrant.java
+
+# macOS / Windows / Linux build artifacts
+**/windows/flutter/ephemeral/
+**/linux/flutter/ephemeral/
+**/macos/Flutter/ephemeral/
